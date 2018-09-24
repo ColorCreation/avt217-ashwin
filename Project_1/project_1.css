@@ -1,0 +1,167 @@
+body{
+	background-color: #FFFFFF;
+}
+h1, h2{
+	text-align: center;
+	font-family: 'Rammetto One', cursive;
+	color: red;
+}
+h1{
+    font-size: 45pt;
+}
+h2{
+	font-size: 20pt;
+	margin-top: 40px;
+}
+p{ 
+	font-family: 'Open Sans', sans-serif;
+}
+.intro{
+    font-size: 15pt;
+}
+*{ 
+	box-sizing: border-box;
+}
+.center{ 
+	margin: 50px auto;
+	width: 60%;
+}
+.text{
+	width: 100%;
+}
+.container1{
+	width: 1200px;
+	height: 1200px;
+}
+.container{
+	width: 1200px;
+    height: 700px;
+	margin: 50px auto;
+}
+.container2{
+	width: 600px;
+	border: none;
+}
+.tall, .wide, .square, .container2, .penhold, .shakehand{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	background-color: green;
+}
+.tall, .wide, .square, .penhold, .shakehand{
+	border: 1px solid white;
+}
+.tall{
+	width: 600px;
+	height: 50px;
+}
+.wide{
+	width: 300px;
+	height: 600px;
+}
+.square, .penhold, .shakehand{
+	width: 300px;
+	height: 300px;
+}
+.penhold:hover{
+	background-image: url("./penhold.jpg");
+	background-size: 100% 100%;
+}
+.shakehand:hover{
+	background-image: url("./shakehand.jpg");
+	background-size: 100% 100%;
+}
+.left, .right{
+	width: 150px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+}
+.left{
+	left: 0;
+}
+.right{
+	right: 0;
+}	
+.left div:nth-child(odd), .right div:nth-child(odd){
+	background-color: black;
+	opacity: 0.75;
+	margin: 0;
+	width: 100px;
+	height: 100px;
+}
+.left div:nth-child(even){
+	background-color: red;
+	opacity: 0.75;
+	margin: 0 0 -50px -50px;
+	width: 100px;
+	height: 100px;
+}
+.right div:nth-child(even){
+	background-color: red;
+	opacity: 0.75;
+	margin: 0 -50px -50px 0;
+	width: 100px;
+	height: 100px;
+}	
+.left div:nth-child(odd):hover, .right div:nth-child(odd):hover{
+	background-color: red;
+	border-radius: 50px;
+}
+.left div:nth-child(even):hover, .right div:nth-child(even):hover{
+	background-color: black;
+	border-radius: 50px;
+}
+.left div{
+	float: left;
+}
+.right div{
+	float: right;
+}
+@media only screen and (max-width: 1800px){
+	.container{
+		width: 600px;
+        height: 350px;
+		margin: 50px auto;
+	}
+	.container2{
+		width: 300px;
+		border: none;
+	}
+	.tall{
+		width: 300px;
+		height: 25px;
+	}
+	.wide{
+		width: 150px;
+		height: 300px;
+	}
+	.square, .penhold, .shakehand{
+		width: 150px;
+		height: 150px;
+	}
+}
+@media only screen and (max-width: 1300px){
+	.left, .right{
+		width: 75px;
+	}
+	.left div:nth-child(odd), .right div:nth-child(odd){
+		width: 50px;
+		height: 50px;
+	}
+	.left div:nth-child(even){
+		margin: 0 0 -25px -25px;
+		width: 50px;
+		height: 50px;
+	}
+	.right div:nth-child(even){
+		margin: 0 -25px -25px 0;
+		width: 50px;
+		height: 50px;
+	}	
+}
+@media only screen and (max-width: 950px){
+	.left, .right{
+		display: none;
+	}
+}
