@@ -1,0 +1,46 @@
+.scroll{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/scroll.jpg");
+    background-size: 100% 100%;
+    opacity: .75;
+}
+h1{
+    font-family: 'Rye', cursive;
+    font-size: 50pt;
+    font-weight: normal;
+}
+h2{
+    font-family: 'Josefin Slab', serif;
+    font-size: 25pt;
+    font-weight: bold;
+}
+p{
+    font-family: 'Josefin Slab', serif;
+    font-size: 30pt;
+    line-height: 35pt;
+}
+#begin a:link, #begin a:visited{
+    text-decoration: none;
+	color: red;
+}
+#begin a:hover{
+    color: maroon;
+}
+p a:link, p a:visited{
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+p a:hover{
+    color: maroon;
+}
+.center{
+    text-align: center;
+    margin-top: 300px;
+}
