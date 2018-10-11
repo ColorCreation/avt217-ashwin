@@ -1,0 +1,447 @@
+h1, h2{
+    font-family: 'Libre Baskerville', serif;
+}
+
+h3, p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*styles for first layout*/
+
+.title1{
+    font-size: 35pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.author1{
+    font-size: 12pt;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.chapter1{
+    font-size: 20pt;
+}
+
+.paragraph1{
+    font-size: 10pt;
+    width: 800px;
+}
+
+.title1, .author1, .chapter1, .paragraph1{
+    margin-left: 200px;
+}
+
+
+
+/*styles for second layout*/
+
+.title2{
+    font-size: 35pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.author2{
+    font-size: 12pt;
+}
+
+.chapter2{
+    font-size: 20pt;
+}
+
+.paragraph2{
+    font-size: 10pt;
+    width: 800px;
+}
+
+.title2, .author2, .chapter2, .paragraph2{
+    margin-left: 200px;
+}
+
+.content2{
+    margin: 80px auto;
+    width: 800px;
+}
+
+
+
+/*styles for third layout*/
+
+.title3{
+    font-size: 45pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+	font-family: 'Eater', cursive;
+	letter-spacing: 10px;	background-color: black;	color: white;
+}
+
+.author3{
+    font-size: 12pt;
+    text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.chapter3{
+    font-size: 25pt;
+    text-align: center;
+	font-family: 'Eater', cursive;
+	margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.paragraph3{
+    font-size: 12pt;
+    width: 800px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.content3{
+    margin: 10px auto;
+    width: 800px;
+}
+
+
+
+/*styles for fourth layout*/
+
+.title4{
+    font-size: 30pt;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    letter-spacing: 5px;
+	line-height: 40px;
+	text-transform: uppercase;
+	font-family: 'Ravi Prakash', cursive;
+}
+
+.author4{
+    font-size: 25pt;
+	font-weight:400;
+    text-align: center;
+    margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.chapter4{
+    font-size: 40pt;
+    text-align: center;
+    margin-bottom: 0px;
+	font-family: 'Ravi Prakash', cursive;
+}
+
+.paragraph4{
+    font-size: 12pt;
+    width: 800px;
+    line-height: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.corner{
+	width: 100%;
+	height: 100px;
+	margin-top: 40px;
+}
+
+.small{
+	width: 300px;
+}
+
+.small, .author4{
+	float: left;
+}
+
+.content4{
+    margin: 50px auto;
+    width: 800px;
+}
+
+
+/*LAYOUTS 5 NEED TO BE EDITED*/
+
+/*styles for fifth layout*/
+
+.title5{
+    font-size: 45pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.author5{
+    font-size: 12pt;
+    font-style: italic;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+
+.chapter5{
+    font-size: 25pt;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.paragraph5{
+    font-size: 12pt;
+    width: 800px;
+    line-height: 20px;
+}
+
+.content5{
+    margin: 50px auto;
+    width: 900px;
+	height: 400px;
+	
+}
+
+.header5{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.column5{
+	column-count: 3;	-webkit-column-count: 3;
+	column-gap: 0px;	-webkit-column-gap: 0px;
+	column-width: 300px;	-webkit-column-width: 300px;
+}
+
+
+
+/*styles for sixth layout*/
+
+.title6{
+    font-size: 45pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.author6{
+    font-size: 12pt;
+    font-style: italic;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 120px;
+}
+
+.chapter6{
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.paragraph6{
+    font-size: 10pt;
+    width: 800px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.content6{
+    margin: 50px auto;
+    width: 800px;
+}
+
+.header6{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+
+
+/*styles for seventh layout*/
+
+.title7{
+    font-size: 65pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.author7{
+    font-size: 35pt;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+}
+
+.chapter7{
+    font-size: 30pt;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.paragraph7{
+    font-size: 12pt;
+    width: 800px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.content7{
+    margin: 50px auto;
+    margin-left: 500px;
+    width: 800px;
+}
+
+.header7{
+    width: 2000px;
+    margin: 10px auto;
+}
+
+.side{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 200px;
+    transform: rotate(-90deg);	background-color: red;
+}
+
+/*styles for eigth layout*/
+
+.title8{
+    font-size: 45pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.author8{
+    font-size: 30pt;
+
+
+    text-align: center;	margin-top: 10px;
+    margin-right: 120px;
+}
+
+.chapter8{
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.paragraph8{
+    font-size: 12pt;
+    width: 800px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.content8{
+    margin: 50px auto;
+    width: 800px;
+}
+
+.header8{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+
+.footer8{	width: 1000px; margin: 10px auto;}
+
+/*styles for ninth layout*/
+
+.title9{
+    font-size: 45pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.author9{
+    font-size: 14pt;
+
+
+    text-align: center;	margin-top: 10px;
+    margin-right: 120px;
+}
+
+.chapter9{
+    font-size: 20pt;
+	text-align: left;	margin-left: 20px;	margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.paragraph9{
+    font-size: 12pt;
+    width: 800px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.content9{
+    margin: 50px auto;
+    width: 800px;
+}
+
+.header9{
+    width: 1000px;
+    margin: 10px auto;
+}
+
+
+.footer9{	width: 1000px; margin-left: 000px;}
+
+/*styles for tenth layout*/
+
+.title10{
+    font-size: 45pt;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.author10{
+    font-size: 14pt;
+
+
+    text-align: left;	margin-top: 10px;
+    margin-right: 120px;
+}
+
+.chapter10{
+    font-size: 20pt;
+	text-align: left;	margin-left: 20px;	margin-bottom: 0px;
+    font-weight: 700;
+}
+
+.paragraph10{
+    font-size: 12pt;
+    width: 800px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.content10{
+    margin: 50px auto;
+    width: 800px;	background-color: white; color: navy;
+}
+
+.header10{
+    width: 1000px;
+    margin: 10px auto; background-color: navy; color: white;
+}
+
+
+.footer10{	width: 1000px; margin: 10px auto;	padding-left: 10px;	background-color: navy; color: white;}
