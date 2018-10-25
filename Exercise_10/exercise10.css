@@ -1,0 +1,84 @@
+body{
+    margin: 10px auto;
+    background-color: black;
+}
+h1,h2,h3{
+    font-family: ‘Playfair Display’, serif;
+    text-align: center;
+}			
+h1{
+    font-size: 32pt;
+    color: mediumturquoise;
+}
+h2{
+    font-size: 24pt;
+    color: paleturquoise;
+    margin-top: 50px;
+}
+h3{
+    font-size: 18pt;
+}
+p{
+    font-family: ‘Lato’, sans-serif;
+    margin: 25px 0 25px 0;
+    color: white;
+    line-height: 25px;
+}
+ul{
+    color: white;
+    line-height: 20px;
+}
+.container{
+    width: 600px;
+    margin: 10px auto;
+}
+#red{
+    color: red;
+}
+#orange{
+    color: orange;
+}
+#yellow{
+    color: yellow;
+}
+#green{
+    color: green;
+}
+#blue{
+    color: blue;
+}
+#indigo{
+    color: indigo;
+}
+#purple{
+    color: purple;
+}
+#pink{
+    color: pink;
+}
+@media only screen and (min-width: 600px){
+    .title{
+        position: relative;
+        left: -500px;
+        bottom: -500px;
+        transform: rotate(-90deg);
+        width: 800px;
+    }
+}
+
+/*MOBILE VERSION*/
+@media only screen and (max-width: 600px){
+    .container{
+        width: 300px;
+        margin: 10px auto;
+    }
+    h1{
+        font-size: 28pt;
+    }
+    h2{
+        font-size: 22pt;
+    }
+    h3{
+        font-size: 16pt;
+    }
+}
