@@ -1,6 +1,9 @@
 *, *:before, *:after{
     box-sizing: border-box;
 }
+body{
+    background-color: rebeccapurple;
+}
 .container{
     width: 850px;
     margin: 60px auto;
