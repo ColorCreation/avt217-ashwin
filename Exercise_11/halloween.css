@@ -1,0 +1,273 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+.container{
+    width: 850px;
+    margin: 60px auto;
+}
+.upperhead{
+    width: 850px;
+    height: 800px;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-top-color: black;
+    border-right-color: black;
+    border-bottom-color: white;
+    border-left-color: black;
+    border-radius: 100%;
+    position: relative;
+}
+.lowerhead{
+    width: 770px;
+    height: 600px;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-top-color: white;
+    border-right-color: black;
+    border-bottom-color: black;
+    border-left-color: black;
+    border-radius: 40%;
+    position: relative;
+    top: -216px;
+    left: 40px;
+}
+.lefteye, .righteye{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 50%;
+}
+.lefteye{
+    position: relative;
+    top: -1100px;
+    left: 100px;
+}
+.righteye{
+    position: relative;
+    top: -1350px;
+    left: 520px;
+}
+.leftpupil, .rightpupil{
+    width: 100px;
+    height: 150px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.leftpupil{
+    position: relative;
+    top: -3250px;
+    left: 200px;
+}
+.rightpupil{
+    position: relative;
+    top: -3400px;
+    left: 570px;
+}
+.leftnose, .rightnose{
+    width: 0px;
+    height: 0px;
+    border-bottom: 80px solid black;
+    border-top: 80px solid transparent;
+}
+.leftnose{
+    border-right: 50px solid black;
+    border-left: 50px solid transparent;
+    position: relative;
+    top: -3350px;
+    left: 320px;
+}
+.rightnose{
+    border-left: 50px solid black;
+    border-right: 50px solid transparent;
+    position: relative;
+    top: -3510px;
+    left: 440px;
+}
+.eyemark1, .eyemark2, .eyemark3, .eyemark4, .eyemark5, .eyemark6, .eyemark7, .eyemark8, .eyemark9, .eyemark10{
+    width: 20px;
+    height: 30px;
+    background-color: pink;
+    border-radius: 50% 50% 0 0;
+}
+.eyemark1{
+    position: relative;
+    top: -1360px;
+    left: 130px;
+    transform: rotate(-140deg);
+}
+.eyemark2{
+    position: relative;
+    top: -1370px;
+    left: 170px;
+    transform: rotate(-160deg);
+}
+.eyemark3{
+    position: relative;
+    top: -1395px;
+    left: 220px;
+    transform: rotate(-180deg);
+}
+.eyemark4{
+    position: relative;
+    top: -1435px;
+    left: 270px;
+    transform: rotate(-200deg);
+}
+.eyemark5{
+    position: relative;
+    top: -1485px;
+    left: 310px;
+    transform: rotate(-220deg);
+}
+.eyemark6{
+    position: relative;
+    top: -1510px;
+    left: 550px;
+    transform: rotate(-140deg);
+}
+.eyemark7{
+    position: relative;
+    top: -1520px;
+    left: 590px;
+    transform: rotate(-160deg);
+}
+.eyemark8{
+    position: relative;
+    top: -1545px;
+    left: 640px;
+    transform: rotate(-180deg);
+}
+.eyemark9{
+    position: relative;
+    top: -1585px;
+    left: 690px;
+    transform: rotate(-200deg);
+}
+.eyemark10{
+    position: relative;
+    top: -1635px;
+    left: 730px;
+    transform: rotate(-220deg);
+}
+.tooth1, .tooth2, .tooth3, .tooth4, .tooth5, .tooth6, .tooth7, .tooth8, .tooth9, .tooth10, .tooth11, .tooth12, .tooth13, .tooth14{
+    width: 60px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50% 50% 0 0;
+}
+.tooth1{
+    position: relative;
+    top: -1415px;
+    left: 410px;
+}
+.tooth2{
+    position: relative;
+    top: -1515px;
+    left: 350px;
+}
+.tooth3{
+    position: relative;
+    top: -1615px;
+    left: 290px;
+}
+.tooth4{
+    position: relative;
+    top: -1715px;
+    left: 230px;
+}
+.tooth5{
+    position: relative;
+    top: -1815px;
+    left: 470px;
+}
+.tooth6{
+    position: relative;
+    top: -1915px;
+    left: 530px;
+}
+.tooth7{
+    position: relative;
+    top: -2015px;
+    left: 590px;
+}
+.tooth8{
+    position: relative;
+    top: -2015px;
+    left: 410px;
+    transform: rotate(180deg);
+}
+.tooth9{
+    position: relative;
+    top: -2115px;
+    left: 350px;
+    transform: rotate(180deg);
+}
+.tooth10{
+    position: relative;
+    top: -2215px;
+    left: 290px;
+    transform: rotate(180deg);
+}
+.tooth11{
+    position: relative;
+    top: -2315px;
+    left: 230px;
+    transform: rotate(180deg);
+}
+.tooth12{
+    position: relative;
+    top: -2415px;
+    left: 470px;
+    transform: rotate(180deg);
+}
+.tooth13{
+    position: relative;
+    top: -2515px;
+    left: 530px;
+    transform: rotate(180deg);
+}
+.tooth14{
+    position: relative;
+    top: -2615px;
+    left: 590px;
+    transform: rotate(180deg);
+}
+.tear1, .tear2, .tear3{
+    width: 0px;
+    height: 0px;
+    border-top: 200px solid red;
+    border-bottom: 200px solid transparent;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-radius: 50%;
+}
+.tear1{
+    position: relative;
+    top: -4165px;
+    left: 370px;
+}
+.tear2{
+    position: relative;
+    top: -4515px;
+    left: 420px;
+    transform: rotate(30deg);
+}
+.tear3{
+    position: relative;
+    top: -4915px;
+    left: 330px;
+    transform: rotate(-30deg);
+}
+.dot{
+    width: 0px;
+    height: 0px;
+    border: 30px solid aqua;
+    border-radius: 50%;
+    position: relative;
+    top: -5115px;
+    left: 400px;
+}
