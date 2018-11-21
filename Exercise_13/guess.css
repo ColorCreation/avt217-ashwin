@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+h1{
+    font-size: 40pt;
+    text-align: center;
+}
+h2{
+    font-size: 15pt;
+    text-align: center;
+}
+img{
+    width: 200px;
+    border: 5px solid navy;
+}
+.center{
+    width: 200px;
+    margin: 50px auto;
+}
+#container{
+    width: 80%;
+    margin: 20px auto;
+}
+input{
+    width: 100%;
+    height: 50px;
+    margin: 20px auto;
+    font-size: 15pt;
+}
+.button{
+    width: 200px;
+    margin: 20px auto;
+}
+.button:hover{
+    cursor: pointer;
+}
+.pokeball{
+    width: 0;
+    height: 0;
+    border-top: 100px solid red;
+    border-right: 100px solid red;
+    border-bottom: 100px solid white;
+    border-left: 100px solid white;
+    border-radius: 50%;
+    margin: 20px auto;
+    transform: rotate(-45deg);
+}
+.button p{
+    text-align: center;
+    font-size: 35pt;
+    position: relative;
+    top: -185px;
+}
+
+/*LARGE DESKTOP VERSION*/
+@media only screen and (max-width: 8000px){
+	#container{
+        width: 600px;
+        margin: 10px auto;
+    }
+}
+
+/*TABLET VERSION*/
+@media only screen and (max-width: 1024px){
+    h1{
+        width: 300px;
+        margin: 20px auto;
+    }
+}
+    
+/*MOBILE VERSION*/
+@media only screen and (max-width: 768px){
+    #container{
+        width: 80%;
+        margin: 10px auto;
+    }
+    h1{
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+}
