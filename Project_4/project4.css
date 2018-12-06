@@ -1,0 +1,397 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+h1{
+    font-size: 35pt;
+	font-family: 'Tillana', cursive;
+}
+h2{
+    font-size: 28pt;
+	font-family: 'Playfair Display', serif;
+}
+p{
+    font-size: 16pt;
+	font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+}
+#container{
+    width: 100%;
+    margin: 0;
+}
+
+#navbar{
+    width: 100%;
+    height: 100px;
+    background-color: cornflowerblue;
+}
+#navbar #desktop{
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+}
+#navbar #desktop a{
+    float: left;
+    width: 300px;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 24px;
+    text-align: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+#navbar #desktop a{
+    font-size: 30pt;
+}
+#navbar #desktop a:link, #navbar #desktop a:visited{
+    color: lightcyan;
+    text-decoration: none;
+}
+#navbar #desktop a:hover{
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+}
+
+#gems a:link, #gems a:visited, .flt_left a:link, .flt_left a:visited, .flt_right a:link, .flt_right a:visited{
+    color: black;
+    text-decoration: none;
+}
+#gems a:hover, .flt_left a:hover, .flt_right a:hover{
+    color: orchid;
+    text-decoration: none;
+}
+.gem p{
+    font-size: 20pt;
+    text-align: center;
+}
+
+#intro{
+    width: 600px;
+    margin: 0 auto;
+}
+#footer{
+    width: 60%;
+    margin: 0 auto;
+}
+.flt_left{
+    float: left;
+}
+.flt_right{
+    float: right;
+}
+
+#armor{
+    width: 600px;
+    margin: 0 auto;
+    float: none;
+}
+#armor img{
+    width: 100%;
+}
+
+/*LARGE DESKTOP VERSION*/
+@media only screen and (max-width: 8000px){
+	#gems{
+        width: 1500px;
+        margin: 60px auto;
+    }
+    .gem{
+        width: 750px;
+        height: 750px;
+        float: left;
+        border-top: 2px solid cornflowerblue;
+        border-bottom: 2px solid cornflowerblue;
+    }
+    .abs_top, .top{
+        border-top: 4px solid cornflowerblue;
+    }
+    .abs_bottom, .bottom{
+        border-bottom: 4px solid cornflowerblue;
+    }
+    .left{
+        border-right: 2px solid cornflowerblue;
+    }
+    .right{
+        border-left: 2px solid cornflowerblue;
+    }
+    .gem .image{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .gem .image img{
+        width: 600px;
+        height: 600px;
+    }
+    
+    #details{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .picture{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .picture img{
+        width: 500px;
+    }
+    
+    #about{
+        width: 1500px;
+        margin: 0 auto;
+    }
+    .text, .refer{
+        float: left;
+    }
+    .text{
+        width: 600px;
+        margin: 0 450px;
+    }
+    .rightImage{
+        margin: 0 10px 0 450px;
+    }
+    .refer{
+        width: 430px;
+        margin-left: 10px;
+    }
+	.refer img{
+		width: 430px;
+	}
+    .wide img{
+        width: 250px;
+    }
+}
+
+/*SMALL DESKTOP VERSION*/
+@media only screen and (max-width: 2000px){
+	#gems{
+        width: 1000px;
+        margin: 60px auto;
+    }
+    .gem{
+        width: 500px;
+        height: 500px;
+        float: left;
+        border-top: 2px solid cornflowerblue;
+        border-bottom: 2px solid cornflowerblue;
+    }
+    .abs_top, .top{
+        border-top: 4px solid cornflowerblue;
+    }
+    .abs_bottom, .bottom{
+        border-bottom: 4px solid cornflowerblue;
+    }
+    .left{
+        border-right: 2px solid cornflowerblue;
+    }
+    .right{
+        border-left: 2px solid cornflowerblue;
+    }
+    .gem .image{
+        width: 350px;
+        margin: 0 auto;
+    }
+    .gem .image img{
+        width: 350px;
+        height: 350px;
+    }
+    
+    #about{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .text, .refer{
+        float: none;
+    }
+    .text{
+        width: 600px;
+        margin: 0;
+    }
+    .refer{
+        width: 400px;
+        margin: 0 auto;
+    }
+	.refer img{
+		width: 400px;
+	}
+    .wide{
+        width: 600px;
+    }
+    .wide img{
+        width: 290px;
+    }
+}
+
+/*TABLET VERSION*/
+@media only screen and (max-width: 1024px){
+	#gems{
+        width: 600px;
+        margin: 60px auto;
+    }
+    .gem{
+        width: 600px;
+        height: 300px;
+        float: left;
+        border-top: 2px solid cornflowerblue;
+        border-bottom: 2px solid cornflowerblue;
+    }
+    .abs_top{
+        border-top: 4px solid cornflowerblue;
+    }
+    .abs_bottom{
+        border-bottom: 4px solid cornflowerblue;
+    }
+    .left .image{
+        width: 300px;
+        margin: 0 auto;
+        float: left;
+    }
+    .right .image{
+        width: 300px;
+        margin: 0 auto;
+        float: right;
+    }
+    .gem .image img{
+        width: 300px;
+        height: 300px;
+    }
+    .gem p{
+        margin-top: 130px;
+    }
+    .left, .right{
+        border-left: 0;
+        border-right: 0;
+    }
+    
+    #about{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .text, .refer{
+        float: none;
+    }
+    .text{
+        width: 600px;
+        margin: 0;
+    }
+    .refer{
+        width: 600px;
+        margin: 0 auto;
+    }
+	.refer img{
+		width: 600px;
+	}
+    .wide{
+        width: 600px;
+    }
+    .wide img{
+        width: 290px;
+    }
+}
+
+/*MOBILE VERSION*/
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 25pt;
+    }
+    h2{
+        font-size: 20pt;
+    }
+    p{
+        font-size: 14pt;
+        line-height: 28px;
+    }
+    
+    #navbar #desktop{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    #navbar #desktop a{
+        float: left;
+        width: 100%;
+        height: 50px;
+        padding-top: 8px;
+        text-align: center;
+        border-top: 1px solid white;
+        border-left: 0;
+        border-right: 0;
+        
+    }
+    #navbar #desktop a{
+        font-size: 20pt;
+    }
+    
+    #gems{
+        width: 80%;
+        margin: 35px auto;
+    }
+    .gem{
+        width: 100%;
+        height: 400px;
+        float: none;
+        border-top: 2px solid cornflowerblue;
+        border-bottom: 2px solid cornflowerblue;
+    }
+    .abs_top{
+        border-top: 4px solid cornflowerblue;
+    }
+    .abs_bottom{
+        border-bottom: 4px solid cornflowerblue;
+    }
+    .image{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .gem .image img{
+        width: 100%;
+    }
+    .gem p{
+        width: 100%;
+        height: 20px;
+    }
+    .left, .right{
+        border-left: 0;
+        border-right: 0;
+    }
+    
+    #intro{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #details{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .picture{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .picture img{
+        width: 100%;
+    }
+    
+    #about{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .text, .refer{
+        float: none;
+    }
+    .text{
+        width: 100%;
+        margin: 0;
+    }
+    .refer, #armor{
+        width: 100%;
+        margin: 0 auto;
+    }
+	.refer img{
+		width: 100%;
+	}
+}
